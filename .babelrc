@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-decorators-legacy",
+    "transform-object-assign",
+    "transform-class-properties",
+    "transform-runtime",
+    "dva-hmr",
+    "syntax-dynamic-import",
+    "dynamic-import-node",
+    [
+      "import", {
+        "libraryName": "antd",
+        "style": true
+      }
+    ]
+  ],
+  "presets": [
+    ["env", {
+      "modules": "commonjs"
+    }],
+    "stage-0",
+    "react"
+  ]
+}
